@@ -13,39 +13,39 @@ CREATE TABLE oficinas(
 /* AQUI SE CREAN LOS DATOS QUE TENDRA LA TABLA OFICINAS*/
 
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Bogotá', '123456789', 'Calle 10', 'Departamento 1', 'Colombia');
+VALUES('Bogotá', '123456789', 'Calle 10', 'bogota', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Medellín', '987654321', 'Carrera 5', 'Departamento 2', 'Colombia');
+VALUES('Medellín', '987654321', 'Carrera 5', 'antioquia', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Cali', '456789123', 'Calle 20', 'Departamento 3', 'Colombia');
+VALUES('Cali', '456789123', 'Calle 20', 'cali', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Barranquilla', '789123456', 'Calle 20', 'Departamento 4', 'Colombia');
+VALUES('Barranquilla', '789123456', 'Calle 20', 'barranquilla', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Cartagena', '654321987', 'Dirección 5', 'Departamento 5', 'Colombia');
+VALUES('Cartagena', '654321987', 'carrera 3', 'bolivar', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Cúcuta', '321456789', 'Dirección 6', 'Departamento 6', 'Colombia');
+VALUES('Cúcuta', '321456789', 'calle 6', 'santander', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Bucaramanga', '951753852', 'Dirección 7', 'Departamento 7', 'Colombia');
+VALUES('Bucaramanga', '951753852', 'carrera 7', 'santander', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Pereira', '258369147', 'Dirección 8', 'Departamento 8', 'Colombia');
+VALUES('Pereira', '258369147', 'calle 8', 'antioquia', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Santa Marta', '753951852', 'Dirección 9', 'Departamento 9', 'Colombia');
+VALUES('Santa Marta', '753951852', 'manzana 9', 'magdalena', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Ibagué', '147258369', 'Dirección 10', 'Departamento 10', 'Colombia');
+VALUES('Ibagué', '147258369', 'manzana 10', 'tolima', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Pasto', '369852147', 'Dirección 11', 'Departamento 11', 'Colombia');
+VALUES('Pasto', '369852147', 'carrera 11', 'nariño', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Manizales', '852741963', 'Dirección 12', 'Departamento 12', 'Colombia');
+VALUES('Manizales', '852741963', 'calle 12', 'caldas', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Neiva', '963852741', 'Dirección 13', 'Departamento 13', 'Colombia');
+VALUES('Neiva', '963852741', 'carrera 13', 'huila', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Villavicencio', '741852963', 'Dirección 14', 'Departamento 14', 'Colombia');
+VALUES('Villavicencio', '741852963', 'calle 14', 'villao', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Montería', '852963741', 'Dirección 15', 'Departamento 15', 'Colombia');
+VALUES('Montería', '852963741', 'casa 15', 'cordoba', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Valledupar', '369147852', 'Dirección 16', 'Departamento 16', 'Colombia');
+VALUES('Valledupar', '369147852', 'carrera 16', 'valle', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Armenia', '951753852', 'Dirección 17', 'Departamento 17', 'Colombia');
+VALUES('Armenia', '951753852', 'carrera 17', 'antioquia', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
-VALUES('Popayán', '258369147', 'Dirección 18', 'Departamento 18', 'Colombia');
-INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
+VALUES('Popayán', '258369147', 'calle 18', 'cali', 'Colombia');
+

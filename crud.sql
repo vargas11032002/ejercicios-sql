@@ -49,3 +49,30 @@ VALUES('Armenia', '951753852', 'carrera 17', 'antioquia', 'Colombia');
 INSERT INTO oficinas (ciudad, telefono, direccion, departamento, pais)
 VALUES('Popayán', '258369147', 'calle 18', 'cali', 'Colombia');
 
+/* AQUI SE CREA LA TABLA empleado*/
+
+CREATE TABLE empleado(
+    
+    nombre VARCHAR (50) NOT NULL,
+    apellido VARCHAR (50)  NOT NULL,
+    telefono VARCHAR (50)  NOT NULL,
+    correo VARCHAR(50)  NOT NULL,
+    id_oficina INT AUTO_INCREMENT PRIMARY KEY,
+    jefe VARCHAR (80)NOT NULL,
+    cargo VARCHAR (80)NOT NULL,
+    creado TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+/* AQUI SE CREAN LOS DATOS QUE TENDRA LA TABLA empleado*/
+
+
+INSERT INTO empleado (nombre, apellido, telefono, correo, jefe, cargo)
+VALUES('Juan', 'Pérez', '123456789', 'juan@example.com', 'Pedro', 'Analista');
+INSERT INTO empleado (nombre, apellido, telefono, correo, jefe, cargo)
+VALUES('María', 'Gómez', '987654321', 'maria@example.com', 'Pedro', 'Desarrollador');
+INSERT INTO empleado (nombre, apellido, telefono, correo, jefe, cargo)
+VALUES('Pedro', 'García', '456789123', 'pedro@example.com', 'Roberto', 'Gerente');
+INSERT INTO empleado (nombre, apellido, telefono, correo, jefe, cargo)
+VALUES('Luisa', 'López', '789123456', 'luisa@example.com', 'Roberto', 'Contadora');
+
